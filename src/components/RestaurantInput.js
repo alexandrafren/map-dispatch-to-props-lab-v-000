@@ -53,6 +53,10 @@ let mapStateToProps = state => {
   return {name: state.name, location: state.location}
 }
 
+let mapDispatchToProps = dispatch => {
+  
+}
+
 
 //connect this component by wrapping RestaurantInput below
 export default connect(mapStateToProps)(RestaurantInput);
