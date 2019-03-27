@@ -54,7 +54,7 @@ let mapStateToProps = state => {
 }
 
 let mapDispatchToProps = dispatch => {
-  
+
 }
 
 
