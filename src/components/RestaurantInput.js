@@ -49,6 +49,10 @@ export class RestaurantInput extends Component {
   }
 };
 
+let mapStateToProps = state => {
+  return {name: state.name, location: state.location}
+}
+
 
 //connect this component by wrapping RestaurantInput below
 export default RestaurantInput
