@@ -49,9 +49,6 @@ export class RestaurantInput extends Component {
   }
 };
 
-let mapStateToProps = state => {
-  return {name: state.name, location: state.location}
-}
 
 let mapDispatchToProps = dispatch => {
 
